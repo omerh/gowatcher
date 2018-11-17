@@ -5,6 +5,10 @@ It has a filter for the containers to watch once all the containers finishes it 
 
 The following container needs to have the following environment variables set.
 
+AWS Permissions needs to have autoscaling access.
+>If you are not using IAM_Role use environment variables when running the containers
+>AWS_ACCESS_KEY_ID, AWS_ACCESS_KEY
+
 ```bash
 FILTER='container image to filter in for watching'
 TIME_INTERVAL='30s' # Optional default to 60
