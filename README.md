@@ -1,4 +1,4 @@
-# go watcher for stand alone docker hosts in aws autoscaling groups
+# gowatcher for stand alone docker hosts in aws autoscaling groups
 
 This was created for a specific use case of stand alone docker hosts that are running in aws in an autoscaling group.
 It has a filter for the containers to watch once all the containers finishes it will detach and reduce autoscale desired count, and will terminate it self.
