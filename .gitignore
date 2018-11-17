@@ -1,0 +1,20 @@
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# goland
+.idea
+.idea/
+
+# artifact
+gowatcher
+
+# vendor
+vendor
+vendor/
+
+# mac
+.DS_Store
